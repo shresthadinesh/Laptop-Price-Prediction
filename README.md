@@ -12,7 +12,7 @@ BSc CSIT Final Year Student
 ## 📁 Dataset Description
 
 - **File Name**: `laptop_data.csv`
-- **Total Records**: ~1300 rows
+- **Total Records**: ~1303 rows 
 - **Columns**:  
   - `Company`  
   - `TypeName`  
@@ -47,7 +47,7 @@ The dataset was collected from publicly available online laptop listings.
 - Price increases with RAM and SSD size
 - Laptops with touchscreen and IPS display tend to be costlier
 - Apple and MSI are among the most expensive brands
-- Correlation matrix shows that `SSD`, `RAM`, and `PPI` are strong predictors of price
+- The correlation matrix shows that `SSD`, `RAM`, and `PPI` are strong predictors of price
 
 *(Graphs were used for visual validation — scatter plots, heatmaps, bar charts.)*
 
@@ -57,19 +57,16 @@ The dataset was collected from publicly available online laptop listings.
 
 ### 🧪 Models Tried:
 - Linear Regression
-- Lasso Regression
-- Ridge Regression
 - Random Forest Regressor
 
 ### 📈 Evaluation Metrics:
 - R² Score
 - Mean Absolute Error (MAE)
-- Root Mean Squared Error (RMSE)
 
 ### ✅ Best Model:
 - **Random Forest Regressor**
-  - R² Score: ~0.89
-  - MAE: 11234.56
+  - R² Score: ~0.877
+  - MAE: 0.1658502125022846
 
 ---
 
@@ -83,6 +80,6 @@ The dataset was collected from publicly available online laptop listings.
   - CPU brand
   - Touchscreen, IPS, HDD/SSD
 - Model predicts the laptop price on-the-fly
-- UI built in `app.py` and run using:
+- UI built-in `app.py` and run using:
   ```bash
   streamlit run app.py
