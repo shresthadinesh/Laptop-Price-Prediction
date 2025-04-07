@@ -79,7 +79,7 @@ The dataset was collected from publicly available online laptop listings.
   ```bash
   streamlit run app.py
 
-  ## 🧾 Conclusion
+## 🖥 Conclusion
 
 - Built a robust model for predicting laptop prices
 - Achieved good accuracy and interpretability
