@@ -1,6 +1,3 @@
-# Generating full markdown documentation content for the project
-
-markdown_doc = """
 # 💻 Laptop Price Predictor
 
 ## 🔍 Objective
@@ -15,7 +12,7 @@ BSc CSIT Final Year Student
 ## 📁 Dataset Description
 
 - **File Name**: `laptop_data.csv`
-- **Total Records**: ~1300 rows (example)
+- **Total Records**: ~1300 rows
 - **Columns**:  
   - `Company`  
   - `TypeName`  
