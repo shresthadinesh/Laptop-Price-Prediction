@@ -3,11 +3,6 @@
 ## 🔍 Objective
 Build a machine learning model that can accurately predict the price of a laptop based on its specifications.
 
-## 👨‍💻 Author
-Dinesh Shrestha  
-BSc CSIT Final Year Student  
-
----
 
 ## 📁 Dataset Description
 
