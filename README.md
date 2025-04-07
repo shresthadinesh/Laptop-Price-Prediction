@@ -78,3 +78,9 @@ The dataset was collected from publicly available online laptop listings.
 - UI built-in `app.py` and run using:
   ```bash
   streamlit run app.py
+
+  ## 🧾 Conclusion
+
+- Built a robust model for predicting laptop prices
+- Achieved good accuracy and interpretability
+- Deployed using Streamlit for real-time use
